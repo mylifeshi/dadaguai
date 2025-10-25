@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int n, m,ans;
+int zh(int) {
+	ans = (m - n) * 365;
+	return 0;
+}
+int main() {
+	cin >> n >> m ;
+	zh(0);
+	cout << "一共" << ans << "天。" << endl;
+	return 0;
+}
