@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b;
+	cin >> a >> b;
+	cout << "此人在尘世" << b - a << "年。" << endl;
+	return 0;
+}

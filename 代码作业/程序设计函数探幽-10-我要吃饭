@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int a[10][10],ans,p,q,b[1000000],c[1000000];
+bool js;
+int zl(int x,int y,int t) {
+    if (a[x][y] == 0)return 0;
+    if (js == 1)return 0;
+    a[x][y] = 0;
+    b[t] = x;
+    c[t] = y;
+    if (x == 0 || x == 8 || y == 0 || y == 8) {
+        ans = t;
+        js = 1;
+        return 0;
+    }
+    zl(x - 1, y,t+1);
+    zl(x + 1, y,t+1);
+    zl(x, y - 1,t+1);
+    zl(x, y + 1,t+1);
+    return 0;
+}
+int main() {
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
+            cin >> a[i][j];
+        }
+    }
+    cin >> p >> q;
+    zl(p,q,0);
+    for (int i = 0; i <=ans; i++) {
+        cout << b[i] << "," << c[i] << endl;
+    }
+    return 0;
+}

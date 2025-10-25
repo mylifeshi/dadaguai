@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int fuduji(int a) {
+	cout << "我精神状态挺好的呀！" << endl;
+	return 0;
+}
+int main() {
+	for (int i = 1; i <= 5; i++) {
+		fuduji(0);
+	}
+	return 0;
+}
