@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+char* my_strcat(char* dest, const char* src)
+{
+    /****************** TODO ******************/
+    char *p = dest;          
+    while (*p != '\0') p++;  
+    const char *q = src;      
+    while (*q != '\0') {     
+        *p = *q;
+        p++;
+        q++;
+    }
+    *p = '\0';               
+    return dest;            
+    /**************** TODO-END ****************/
+}
+
+int main()
+{
+    const int str_length = 100;
+
+    char arr1[str_length] = {};
+    char arr2[str_length] = {};
+
+    cin.getline(arr1, str_length);
+    cin.getline(arr2, str_length);
+
+    my_strcat(arr1, arr2);
+
+    cout << arr1 << endl;
+
+    return 0;
+}
