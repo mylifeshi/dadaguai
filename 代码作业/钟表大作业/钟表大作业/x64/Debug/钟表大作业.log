@@ -1,0 +1,10 @@
+﻿  FileName.cpp
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(22,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(23,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(24,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(25,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(51,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(52,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(53,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsc++\钟表大作业\钟表大作业\FileName.cpp(54,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  钟表大作业.vcxproj -> D:\vsc++\钟表大作业\x64\Debug\钟表大作业.exe
